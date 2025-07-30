@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>mrn</title>
-  <style>
-    body {
-      background-color: #1a1a1a;
-      color: #ffffff;
-      font-family: 'Segoe UI', sans-serif;
-      padding: 40px;
-      text-align: center;
-    }
-    h1 {
-      color: #00ccff;
-      font-size: 3em;
-    }
-    p {
-      font-size: 1.2em;
-      margin: 20px auto;
-      max-width: 600px;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 15px 25px;
-      background-color: #00ccff;
-      color: #000;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    a.button:hover {
-      background-color: #0099cc;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>かっこいいYouTubeチャンネルサイト</title>
+<style>
+  /* フォントの読み込み（Google Fontsにはないので要別途用意が必要） */
+  @font-face {
+    font-family: 'Rodan Cattleya UB';
+    src: url('RodanCattleyaUB.woff2') format('woff2'),
+         url('RodanCattleyaUB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    color: #ffffff;
+    font-family: 'Rodan Cattleya UB', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.5;
+  }
+</style>
 </head>
 <body>
-  <h1>ようこそ！mrnのチャンネルへ</h1>
-  <p>フォートナイトを中心に、解説系ショートやずんだもん音声を使った動画を投稿しています。</p>
-  <p>チャンネル登録者1000人を目指して活動中！</p>
-  <a class="button" href="https://www.youtube.com/@mrn_Fortnite" target="_blank">▶ YouTubeチャンネルを見る</a>
+  <h1>あなたのYouTubeチャンネルへようこそ</h1>
+  <p>最新動画やお知らせをここに掲載します。背景のグラデーションと白文字でシンプルにかっこよく。</p>
 </body>
 </html>
